@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- Fig. 5.2: transitions.html -->
+<!-- Transitions in CSS3. -->
+<html>
+   <html>
+       <meta charset = "utf-8">
+       <title>Transitions</title>
+
+       <a href ="../../Projekti 2/Assignment.html"> Back</a>
+       <br>
+       <br>
+       <style type = "text/css">
+       	  img
+       	  {
+       	  	margin: 80px;
+       	  	-webkit-transition: -webkit-transform 4s;
+       	  	-moz-transition: -moz-transform 4s;
+       	  	-o-transition: -0-transform 4s;
+       	  	transition: transform 4s;
+       	  }
+       	  img:hover
+       	  {
+       	  	-webkit-transform: rotate(360deg) scale(2, 2);
+       	  	-moz-transform: rotate(360deg) scale(2, 2);
+       	  	-0-transform: rotate(360deg) scale(2, 2);
+            transform: rotate(360deg) scale(2, 2);
+       	  }
+       	</style> 
+      </head>
+      <body>
+      	<img src = "cpphtp.png" width = "76" height = "100"
+      	   alt = "C++ How to Program book cover">
+      	 </body>
+      </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!-- Fig. 4.9: positioning.html -->
+<!-- Absolute positioning of elements. -->
+<html>
+    <meta charset = "utf-8">
+    <title>Absolute Positioning</title>
+
+    <a href ="../../Projekti 2/Assignment.html"> Back</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <style type = "text/css">
+    	.background_image { position:absolute;
+    	                    top: 0px;
+    	                    left: 0px; 
+    	                    z-index: 1; }
+    	.foreground_image { position: absolute; 
+    	                    top: 25px;
+    	                    left: 100;
+    	                    z-index: 2; }
+    	.text             { postion: absolute;
+    		                top: 25px;
+    		                left:100px;
+    		                z-index: 3;
+    		                font-size: 20pt;
+    		                font-family: tahoma, geneva, sans-serif; }
+        </style> 
+      </head>
+
+      <body>
+      	<p><img src = "background_image.png" class = "backgroung_image"
+      		alt = "First positioned image" /></p>
+
+      	<p><img src = "foreground_image.png" class = "foreground_image"
+      		alt = "Second positioned image" /></p>
+
+      	<p class = "text">Positioned Text</p>
+     </body>
+  </html>

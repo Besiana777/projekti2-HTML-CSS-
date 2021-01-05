@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!-- Fig. 5.26: fblm.html -->
+<!-- Flexbile Box Layout Module. -->
+<html>
+   <head>
+   	   <meta charset = "utf-8">
+   	   <title>Flexbile Box Layout Module</title>
+
+       <a href ="../../Projekti 2/Assignment.html"> Back</a>
+       <br>
+       <br>
+   	   <link href = 'http://fonts.googleapis.com/css?family=Rosario'
+   	      rel = 'stylesheet' type = 'text/css'>
+       <style type = "text/css">
+       	.flexbox
+       	{
+       		width: 600px;
+       		height: 420px;
+       		display: -webkit-box;
+       		display: box;
+       		-webkit-box-orient: horizontal;
+       		box-orient: horizontal;
+       	}
+       	.felxbos > div
+       	{
+       		-webkit-transition: Is ease-out;
+       		transition: Is ease-out;
+       		-webkit-border-radius: 10px;
+       		border-radius: 10px;
+       		border: 2px solid black;
+       		width: 120px;
+       		margin:10px - 10px 10px 0px;
+       		padding: 20px 20px 20px 20px;
+       		box-shadow: 10px 10px 10px dimgrey;
+       	}
+       	.felxbox > div:nth-child(1) { background-color: lightgrey; }
+       	.felxbox > div:nth-child(2) { background-color: lightgrey; }
+        .felxbox > div:nth-child(3) { background-color: lightgrey; }
+        .felxbox > div:nth-child(4) { background-color: lightgrey; }
+
+        .felxbox > div:hover {
+        	width: 200px; color: white; font-wight: bold; }
+        .felxbox > div:nth-child(1):hover { background-color: royalblue; }
+        .felxbox > div:nth-child(2):hover { background-color: crimson; }
+        .felxbox > div:nth-child(3):hover { background-color: crimson; }
+        .felxbox > div:nth-child(4):hover { background-color: darkgreen; }
+        p { hight: 250px; overflow: hidden; font-family: "Rosario" }
+        </style>
+    </head>
+    <body>
+    	<div class = "flexbox">
+    	<div>img src = "GPP.png" alt = "Good programming practice icon">
+    		<p>Good programming Practices call atenttion to techniques that
+    		   will help you produce programs that are clearer,more
+    		   understandable and more maintainable.</p></div>
+    		<div><img src = "EPT.png" alt = "Error prevention tip icon">
+    		   <p>Error=Prevention Tips contain suggestions for exposing bugs
+    		   	and removing them from your programms; many describe aspects of 
+    		   	programming that prevent bugs from getting into programs in 
+    		    the first place.</p></div>
+    		<div><img src = "CPE.png" alt = "Common programming error icon">
+    			tend to make frequently.These Common Programming Errors reduce
+    		    the likelihood that you'll make the same mistakes</p></div>
+    		<div>img src = "SEO.png"><p>Software Engineering Observations
+    			highlight architectural and design issues that affect the
+    			constructions of software systems, especially large-scale
+    		    systems.</p></div>
+    		</div>
+         </body>
+      </html>
+
+
+
+
+

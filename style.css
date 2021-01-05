@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background:white;
+	margin-top: -20px;
+	border-bottom: 1px solid gray; 
+	box-shadow: 1px 1px 5px 1px;
+	z-index: 9999;
+}
+
+header ul{
+	list-style-type: none;
+	position: relative;
+	left:30%;
+
+}
+
+header ul li{
+	float: left;
+	
+	font-size: 150%;
+	background:#888;
+	color: white;
+	padding: 5px; 
+}
+
+header ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: fantasy;
+	transition: .5s;
+	padding: 5px;
+}
+header a:hover{
+	background: rgba(0,0,0,.5);
+	color: white;
+	padding: 5px;
+	transition: .5s;
+}
+
+.index-sectoin{
+	height: 1000px;
+	background:#444;
+}
+
+.welcome {
+	position: relative;
+	left: 20%;
+	color: white;
+	top: 1%;
+	z-index: 1;
+	font-size: 60px;
+}
+.welcome1{
+	position: relative;
+	color: white;
+	left: 0%;
+	top: 0%;
+	z-index: 0;
+	font-size: 60px;
+	opacity: .5;
+
+}
+
+.div1{
+	display: flex;
+	justify-content: space-around;
+	position: relative;top: 35%;
+
+}
+
+.index-sectoin p {
+	position: relative;
+	left: -0%;	
+	top: 25%;
+	z-index: 1;
+}
+
+.img{
+	position: relative;
+	top: 24%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	widows: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.me{
+	position: relative;
+	top:18%;
+	left: 8%;
+	font-size: 250%;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+
+.p{
+	color: white;
+	text-align: center;
+}
+.p1{
+	color: white;
+	text-align: center;
+	border:1px solid white;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 45px;}
+
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
